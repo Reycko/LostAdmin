@@ -1,9 +1,13 @@
-main: me.TestName.Heal.Main
-name: EasyHeal
-version: 0.1
-description: Allows players with permission to heal.
+main: me.Plugin.Admin.Main
+name: LostAdmin
+version: 1.11Fixed
+description: Little admin plugin 
 api-version: 1.17
 
 commands:
- heal:
-   description: Heals the player
+   heal:
+      description: Heals the player.
+   feed:
+      description: Feeds the player.
+   suicide:
+      description: Kills the player.
