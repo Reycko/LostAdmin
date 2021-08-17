@@ -33,7 +33,23 @@ public class Main extends JavaPlugin{
 			p.sendMessage(ChatColor.GREEN + "You have been healed successfully!");
 			return true;
 		}
+		
+		if(label.equalsIgnoreCase("feed")) {
+			if(!(sender instanceof Player)) {
+				sender.sendMessage("Error while executing command : Not a Player.");
+				return true;
+			}
+			if(!sender.hasPermission("feed.use")) {
+				sender.sendMessage(ChatColor.DARK_RED + "Error while executing command : No permission.");
+				return true;
+			}
+				Player p = (Player) sender;
+				p.setFoodLevel(20);
+				p.sendMessage(ChatColor.GREEN + "You have been fed successfully!");
+				
+			}
 		return false;
+		
 	}
 	
 }
