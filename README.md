@@ -2,7 +2,7 @@
 
 To edit the plugin, You will need to :
 
-1 - Have a minecraft server.
+1 - Have a minecraft server.                  
 2 - Have Eclipse IDE installed on your computer.
 NOTE: If you have any other application to do this it ins't a problem. But this category is for Eclipse IDE since i use it.
 3 - Open the project with Eclipse IDE.
