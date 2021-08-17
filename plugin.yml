@@ -1,0 +1,9 @@
+main: me.TestName.Heal.Main
+name: EasyHeal
+version: 0.1
+description: Allows players with permission to heal.
+api-version: 1.17
+
+commands:
+ heal:
+   description: Heals the player
